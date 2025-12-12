@@ -68,7 +68,7 @@ travel_blog/
 │   │   └── data.jsx
 │   │
 │   └── images/
-│       └── mateus-campos-felipe-Q09TaOBz1p0-unsplash.jpg
+│       └── background_image.jpg
 ```
 
 ---

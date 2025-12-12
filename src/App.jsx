@@ -9,7 +9,7 @@ function App() {
     <>
     <Navbar />
     <div className="bg-stone-600 relative h-50 md:h-100 xl:h-140 2xl:h-200">
-      <img src="src/images/mateus-campos-felipe-Q09TaOBz1p0-unsplash.jpg " alt="img" className="h-50 md:h-100 xl:h-140 2xl:h-200 w-full absolute mix-blend-overlay" />
+      <img src="src/images/background_image.jpg" alt="img" className="h-50 md:h-100 xl:h-140 2xl:h-200 w-full absolute mix-blend-overlay" />
         <h1 className="text-2xl md:text-3xl xl:text-4xl 2xl:text-5xl text-yellow-600 font-bold font-serif relative text-center top-5 md:top-8 xl:top-10 2xl:top-15">Blog</h1>
         <div className="text-center relative top-6 md:top-12 xl:top-15 2xl:top-25">
           <button className="rounded-xl p-2 px-3 md:px-4 bg-yellow-800 hover:bg-yellow-700 shadow-md shadow-black/90 hover:shadow-lg text-[10px] md:text-[13px] xl:text-sm 2xl:text-base text-white font-semibold">Add Blog</button>
