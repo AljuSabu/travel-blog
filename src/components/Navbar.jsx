@@ -1,4 +1,5 @@
 import React from 'react'
+import MenuIcon from '@mui/icons-material/Menu';
 
 const Navbar = () => {
   return (
@@ -14,6 +15,10 @@ const Navbar = () => {
                 <button className='hover:text-red-500'>About</button>
                 <button className='hover:text-red-500'>Contact</button>
             </ul>
+            <div className='md:hidden'>
+              <MenuIcon className='text-white'/>
+            </div>
+            
         </div>
     </nav>
   )

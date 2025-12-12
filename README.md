@@ -1,16 +1,167 @@
-# React + Vite
+# 🌍 Travel Blog
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+***(Work in Progress)***
 
-Currently, two official plugins are available:
+A modern and visually appealing travel blog built with **React** and **Vite**, showcasing beautiful destinations using a clean card-based UI. This project demonstrates component-based architecture, reusable UI elements, and responsive design.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## React Compiler
+## ✨ Features
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+* 🧭 **Interactive Navbar**
+* 🗺️ **Dynamic Travel Cards** (fetched from a local data file)
+* 📱 **Responsive Design** for all devices
+* ⚡ **Vite-powered** fast development environment
+* 🧩 **Reusable Components** (Navbar, Card)
+* 🎨 **Clean UI** layout suitable for blogs or portfolios
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 📸 Screenshots
+
+**Large Monitor**
+
+![monitor](./src/images/monitor.png)
+
+**Laptop**
+
+![laptop](./src/images/laptop.png)
+
+**Tablet**
+
+![tablet](./src/images/tablet.png)
+
+**Mobile**
+
+![mobile](./src/images/mobile.png)
+
+---
+
+## 📂 Project Structure
+
+```
+travel_blog/
+│── .gitignore
+│── eslint.config.js
+│── index.html
+│── package.json
+│── package-lock.json
+│── README.md
+│── vite.config.js
+│
+├── public/
+│   └── vite.svg
+│
+├── src/
+│   ├── App.jsx
+│   ├── index.css
+│   ├── main.jsx
+│   │
+│   ├── assets/
+│   │   └── react.svg
+│   │
+│   ├── components/
+│   │   ├── Card.jsx
+│   │   └── Navbar.jsx
+│   │
+│   ├── data/
+│   │   └── data.jsx
+│   │
+│   └── images/
+│       └── mateus-campos-felipe-Q09TaOBz1p0-unsplash.jpg
+```
+
+---
+
+## 🛠️ Tech Stack
+
+**Frontend:**
+
+* React
+* JSX Components
+* CSS
+
+**Build Tools:**
+
+* Vite
+* ESLint
+
+---
+
+## 🚀 Getting Started
+
+Follow these instructions to run the project locally.
+
+### 1️⃣ Clone the repository
+
+```bash
+git clone https://github.com/aljuSabu/travel-blog.git
+cd travel-blog
+```
+
+### 2️⃣ Install dependencies
+
+```bash
+npm install
+```
+
+### 3️⃣ Start the development server
+
+```bash
+npm run dev
+```
+
+The app will be available at:
+
+```
+http://localhost:5173
+```
+
+---
+
+## 🧱 Components Overview
+
+### **Navbar.jsx**
+
+A simple and reusable navigation bar for branding or navigation links.
+
+### **Card.jsx**
+
+Displays travel location info including image, title, description, and link.
+
+### **data.jsx**
+
+Contains an array of travel destination objects used to generate cards dynamically.
+
+---
+
+## 📦 Build for production
+
+```bash
+npm run build
+```
+
+---
+
+## 🔧 ESLint
+
+To maintain code quality:
+
+```bash
+npm run lint
+```
+
+---
+
+## 🙌 Contributing
+
+Contributions are welcome!
+Feel free to open issues or submit pull requests.
+
+---
+
+## 📄 License
+
+This project is **open-source** — add your preferred license (MIT recommended).
+
+---
