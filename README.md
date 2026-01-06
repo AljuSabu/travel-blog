@@ -95,7 +95,7 @@ Follow these instructions to run the project locally.
 ### 1️⃣ Clone the repository
 
 ```bash
-git clone https://github.com/aljuSabu/travel-blog.git
+git clone https://github.com/AljuSabu/travel-blog.git
 cd travel-blog
 ```
 
